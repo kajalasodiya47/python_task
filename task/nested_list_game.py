@@ -24,6 +24,7 @@ while i < 5:
  print("lucky : ",x)
  if(x in computer):
     computer.remove(x)
+    print(computer)
     print("round : ",i)
     print("computer win")
     print("c_score = ",i)
@@ -31,6 +32,7 @@ while i < 5:
        break
  elif(x in user):
     user.remove(x)
+    print(user)
     print("round : ",i)
     print("user win")
     print("u_score = ",i)
